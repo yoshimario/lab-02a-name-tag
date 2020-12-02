@@ -14,17 +14,26 @@ body, html {
   box-sizing: border-box;
 }
 
-#firstbox {
+
+
+#first-box {
   width: 248px;
   height: 60px;
   background: red;
   border-radius: 25px 25px 0px 0px;
+  color: white;
 }
-
-#secondbox {
+#second-box {
+  width: 248px;
+  height: 79px;
+  background: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#third-box {
   width: 248px;
   height: 60px;
-  margin-top:18px;
   background: red;
   border-radius: 0px 0px 25px 25px;
 }
