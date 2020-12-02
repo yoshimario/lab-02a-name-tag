@@ -1,0 +1,30 @@
+body, html {
+  width: 250px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid green;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#firstbox {
+  width: 248px;
+  height: 60px;
+  background: red;
+  border-radius: 25px 25px 0px 0px;
+}
+
+#secondbox {
+  width: 248px;
+  height: 60px;
+  margin-top:18px;
+  background: red;
+  border-radius: 0px 0px 25px 25px;
+}
